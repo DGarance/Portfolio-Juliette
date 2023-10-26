@@ -1,0 +1,44 @@
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Big+Shoulders+Display&family=Roboto+Mono&display=swap');
+
+@import "utils/variables.scss";
+@import "layouts/base_pages.scss";
+@import "components/button.scss";  
+@import "base/mediaqueries.scss";
+
+
+span {
+  font-weight: bold;
+  color: violet;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  button {
+    display: none;
+  }
+  .navbar-logo {
+    padding: 1rem 2rem;
+  }
+  .main-navbar {
+    padding: 1rem 2rem;
+  }
+
+  .main-navlist{
+    display: block;
+    padding-top: 0;
+    width: auto;
+  }
+  .nav-links{
+    display: inline;
+    padding: 0;
+    margin-right: 1.5rem;
+  }
+}
+
