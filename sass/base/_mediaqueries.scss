@@ -1,4 +1,4 @@
-@media screen and (min-width :768px ){
+@media screen and (min-width: 768px ){
     /*Navbar*/
     .navbar {
   &__logo {
@@ -6,11 +6,10 @@
   }
 
   &__container {
-   padding: 1rem 2rem;
-   align-items: center;
+   padding: 1.25rem;
   }
 
-  &__main-navlist {
+  &__list {
     display: block;
     padding-top: 0;
     width: auto;
@@ -24,4 +23,13 @@
 button{
     display: none;
 }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav{
+    &__logo{
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+    }
+  }
 }

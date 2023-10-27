@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Big+Shoulders+Display&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Big+Shoulders+Display&family=Roboto+Mono&display=swap');
 
 @import "utils/variables.scss";
 @import "layouts/base_pages.scss";
@@ -8,15 +8,11 @@
 
 span {
   font-weight: bold;
-  color: violet;
+  color: rgb(47, 2, 47);
 }
 
 a {
   text-decoration: none;
-}
-
-button {
-  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
